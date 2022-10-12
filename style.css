@@ -1,0 +1,81 @@
+body {
+  background-image: url("./restaurant-1284351_1920.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+body h1 {
+  font-family: "New Tegomin", serif;
+  text-align: center;
+  font-size: 4rem;
+}
+
+body a {
+  color: white;
+}
+
+#searchInput {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 17px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  font-family: "New Tegomin", serif;
+}
+
+.recette button {
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.658);
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-family: "New Tegomin", serif;
+}
+
+.recette {
+  display: grid;
+  margin: 0 auto;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.recette img {
+  width: 300px;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#results {
+  margin: 100px auto;
+  justify-content: center;
+  text-align: center;
+  background-image: url("./salad-2068220_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  font-family: "New Tegomin", serif;
+}
+
+#results h2 {
+  font-size: 2rem;
+}
+.infos {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  margin: 15px auto;
+  width: 50%;
+  padding: 5px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.404);
+}
